@@ -1,0 +1,19 @@
+pre,
+code {
+  background-color: #222;
+  color: #fff;
+}
+code {
+  padding: 0.2em;
+  border-radius: 4px
+}
+pre {
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 4px;
+  overflow-y: scroll;
+}
+
+pre code {
+  padding: 0;
+}

@@ -7,7 +7,8 @@
 
 body {
   font-family: var(--font-sans);
-  color: #444;
+  color: #666;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4 {
@@ -15,6 +16,18 @@ h1, h2, h3, h4 {
   font-weight: normal;
   font-style: normal;
   line-height: 1.2;
+  margin-bottom: 1em;
   color: #000;
+}
+h1 {  font-size: 2em;}
+h2 {  font-size: 1.5em;}
+
+a {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #09f;
+  &:hover {
+    color: #09f;
+  }
 }
 

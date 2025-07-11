@@ -23,5 +23,9 @@
     "plugins": [
       "https://deno.land/x/lume@v3.0.4/lint.ts"
     ]
+  },
+  "deploy": {
+    "org": "philhawksworth",
+    "app": "demo-styles"
   }
 }
