@@ -1,12 +1,8 @@
-:root {
-  --font-sans: "Recursive", ui-sans-serif, system-ui, sans-serif;
-  --font-serif: Moranga, "Georgia Pro", Georgia, serif;
-  --font-mono: "Recursive";
-}
 
 
 body {
   font-family: var(--font-sans);
+  
   color: #666;
   line-height: 1.5;
 }
@@ -16,7 +12,7 @@ h1, h2, h3, h4 {
   font-weight: normal;
   font-style: normal;
   line-height: 1.2;
-  margin: 0.75em 0 1em;
+  margin: 1.75em 0 1em;
   color: #000;
 }
 h1 {  font-size: 2em;}
@@ -39,15 +35,15 @@ li::marker {
 a {
   color: #000;
   text-decoration: underline;
-  text-decoration-color: #09f;
+  text-decoration-color: #000;
   &:hover {
-    color: #09f;
+    text-decoration-color:var(--color-secondary);
   }
 }
 
 blockquote {
-  border-left: solid 2px #ccc;
-  background: #f6f6f6;
+  border-left: solid 2px var(--shade-down-2);
+  background: var(--shade-down-1);
   padding: 2em;
   margin: 2em 0;
   font-size: 1.1rem;
@@ -55,6 +51,7 @@ blockquote {
   h1, h2, h3, h4 {
     font-size: 1.4em;
     padding-top: 0;
+    margin-top: 0;
   }
 }
 

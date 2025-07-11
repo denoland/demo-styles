@@ -1,0 +1,52 @@
+form {
+  background-color: var(--shade-down-2);
+  border-radius: var(--radius-3);
+  padding: 2em;
+}
+
+label {
+  font-size: 0.9em;
+  color: var(--text-color-primary);
+}
+
+input:not([type=submit]),
+select {
+  width: 100%;
+  font-size: 1.1em;
+  border: solid 1px black;
+  border-radius: var(--radius-2);
+  padding: 0.3em 0.8em;
+  margin-bottom: 0.8em;
+}
+
+
+input[type=text],
+input[type=password]{
+  &::placeholder {
+    color: var(--neutral-light-500);
+  }
+}
+
+input[type=submit] {
+  padding: 0.4em 1em;
+}
+
+input[type=submit]:not(:disabled):hover,
+input[type=submit]:not(:disabled):focus {
+  background-color: white;
+  border-color: white;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: var(--icon-chevron);
+  background-position: calc(100% - 8px);
+  background-repeat: no-repeat;
+  background-size: .75em;
+}
+
+label > * {
+  display: block;
+  margin-top:0.3em;
+}

@@ -1,8 +1,10 @@
 /* Import the SCSS file from _includes/sass/reset.scss */
 @use "sass/reset.scss";
+@use "sass/variables.scss";
 @use "sass/fonts.scss";
 @use "sass/layout.scss";
 @use "sass/typography.scss";
+@use "sass/forms.scss";
 @use "sass/code.scss";
 
 
@@ -11,5 +13,4 @@
 
 body {
   background-color: #fff;
-  font-family: Moranga, sans-serif;
 }

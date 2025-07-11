@@ -1,0 +1,44 @@
+:root {
+
+  /*
+  Fonts
+  */
+  --font-serif: Moranga, "Georgia Pro", Georgia, serif;
+  --font-sans: "Recursive", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Recursive";
+
+  /*
+   Colors
+  */
+  --color-primary: #000;
+  --color-primary-light: #333;
+  --color-secondary: #09f;
+  --color-secondary-light: #97caeb;
+  --color-tertiary: #999;
+
+  --shade-down-1: #00000008;
+  --shade-down-2: #00000015;
+  --shade-down-3: #00000022;
+
+  /*
+    Responsive type sizes 
+    @link https://utopia.fyi/type/calculator?c=320,12,1.2,2600,18,1.2,6,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 
+  */
+  --step--1: clamp(0.625rem, 0.5811rem + 0.2193vi, 0.9375rem);
+  --step-0: clamp(0.75rem, 0.6974rem + 0.2632vi, 1.125rem);
+  --step-1: clamp(0.9rem, 0.8368rem + 0.3158vi, 1.35rem);
+  --step-2: clamp(1.08rem, 1.0042rem + 0.3789vi, 1.62rem);
+  --step-3: clamp(1.296rem, 1.2051rem + 0.4547vi, 1.944rem);
+  --step-4: clamp(1.5552rem, 1.4461rem + 0.5457vi, 2.3328rem);
+  --step-5: clamp(1.8662rem, 1.7353rem + 0.6548vi, 2.7994rem);
+  --step-6: clamp(2.2395rem, 2.0823rem + 0.7858vi, 3.3592rem);
+
+
+  /* 
+    Dimensions 
+  */
+  --radius-1: 4px;
+  --radius-2: 6px;
+  --radius-3: 10px;
+  --grid-line-size: 10px;
+}
