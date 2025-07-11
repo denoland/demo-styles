@@ -6,10 +6,14 @@ code {
   color: var(--color-primary-light);
 }
 pre {
-  padding: 1.5em;
-  margin: 1em 0;
   border-radius: var(--radius-2);
   overflow-y: scroll;
+  margin: 2em 0;
+  padding: 1.5em;
+  background-color: var(--shade-down-1);;
+}
+pre:has(> code) {
+  margin: 1em 0;
   background-color: #222;
 }
 

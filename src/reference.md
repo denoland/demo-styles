@@ -5,7 +5,7 @@ templateEngine: [vto, md]
 
 <section>
 
-  ## HTML elements & utility classes
+  # HTML elements & utility classes
 
   These examples styles target plan HTML elements to make it as easy as possible to use them in any [POSH](https://microformats.org/wiki/posh) site site without the need to add custom CSS classes.
 
@@ -95,6 +95,29 @@ A horizontal rule `<hr>` can be used to add some subtle visual separation.
    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque perspiciatis placeat sit deserunt suscipit quisquam eaque hic dolorum libero magnam! Ducimus quis adipisci amet mollitia atque dicta iste aut ratione?
   </p>
   </blockquote>
+
+  ### Preformatted text
+
+  ```html
+  <pre>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque perspiciatis placeat sit deserunt suscipit quisquam eaque hic dolorum libero magnam! Ducimus quis adipisci amet mollitia atque dicta iste aut ratione?
+  </pre>
+  ```
+
+  <pre>
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+Atque perspiciatis placeat sit deserunt
+suscipit
+  quisquam
+    eaque
+      hic
+        dolorum
+      libero 
+    magnam! 
+  Ducimus 
+quis adipisci amet mollitia atque dicta iste aut ratione?
+  </pre>
 
 
   ### Lists
