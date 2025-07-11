@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
   font-weight: normal;
   font-style: normal;
   line-height: 1.2;
-  margin-bottom: 1em;
+  margin: 0.75em 0 1em;
   color: #000;
 }
 h1 {  font-size: 2em;}
@@ -29,12 +29,32 @@ p+p {
   margin-top: 0em;
 }
 
+ul, ol {
+  margin: 1em 0;
+}
+li::marker {
+  color: #999
+}
+
 a {
   color: #000;
   text-decoration: underline;
   text-decoration-color: #09f;
   &:hover {
     color: #09f;
+  }
+}
+
+blockquote {
+  border-left: solid 2px #ccc;
+  background: #f6f6f6;
+  padding: 2em;
+  margin: 2em 0;
+  font-size: 1.1rem;
+
+  h1, h2, h3, h4 {
+    font-size: 1.4em;
+    padding-top: 0;
   }
 }
 
