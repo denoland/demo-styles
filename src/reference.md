@@ -170,7 +170,7 @@ quis adipisci amet mollitia atque dicta iste aut ratione?
 
 </section>
 <hr>
-<section>
+<!-- <section>
 
 ## Syntax highlighting
 
@@ -205,7 +205,7 @@ export default async (request: Request, context: Context) => {
   });
 };
 ```
-
+ -->
 
 
 </section>
