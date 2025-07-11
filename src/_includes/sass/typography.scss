@@ -22,6 +22,13 @@ h1, h2, h3, h4 {
 h1 {  font-size: 2em;}
 h2 {  font-size: 1.5em;}
 
+p {
+  margin: 1em 0;
+}
+p+p {
+  margin-top: 0em;
+}
+
 a {
   color: #000;
   text-decoration: underline;
