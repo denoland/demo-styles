@@ -1,0 +1,12 @@
+.flex-btwn {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.panel {
+  background-color: var(--shade-down-2);
+  border-radius: var(--radius-3);
+  padding: 2em;
+  margin: 2em 0;
+}

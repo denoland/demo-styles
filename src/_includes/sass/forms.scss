@@ -1,16 +1,17 @@
 form {
-  background-color: var(--shade-down-2);
+  background-color: var(--shade-down-1);
   border-radius: var(--radius-3);
   padding: 2em;
 }
 
 label {
   font-size: 0.9em;
-  color: var(--text-color-primary);
+  color: var(--color-primary-light);
 }
 
 input:not([type=submit]),
-select {
+select,
+textarea {
   width: 100%;
   font-size: 1.1em;
   border: solid 1px black;
@@ -21,20 +22,28 @@ select {
 
 
 input[type=text],
-input[type=password]{
+input[type=password],
+textarea {
   &::placeholder {
-    color: var(--neutral-light-500);
+    color: var(--color-tertiary);
   }
 }
 
+
+
 input[type=submit] {
   padding: 0.4em 1em;
+  border-radius: var(--radius-2);
+  border: solid 1px black;
+  background-color: var(--color-primary-light);
+  color: #fff;
+  cursor: pointer;
 }
 
 input[type=submit]:not(:disabled):hover,
 input[type=submit]:not(:disabled):focus {
-  background-color: white;
-  border-color: white;
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
 select {

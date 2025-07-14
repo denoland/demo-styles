@@ -170,7 +170,7 @@ quis adipisci amet mollitia atque dicta iste aut ratione?
 
 </section>
 <hr>
-<!-- <section>
+<section>
 
 ## Syntax highlighting
 
@@ -183,11 +183,8 @@ The result will style your code blocks like this:
 
 
 ```js
-/*
- example from elsewhere
-*/
-import type { Context } from "@netlify/edge-functions";
 
+// some exmample
 export default async (request: Request, context: Context) => {
   let index = 0
   const encoder = new TextEncoder();
@@ -205,7 +202,7 @@ export default async (request: Request, context: Context) => {
   });
 };
 ```
- -->
+ 
 
 
 </section>
@@ -257,6 +254,9 @@ Using `input` elements nested inside `labels` for implicit association.
       <option value="2">Option two</option>
       <option value="3">Option three</option>
     </select>
+  </label>
+  <label>Text area
+    <textarea name="some-text" placeholder="Text area text style"></textarea>
   </label>
   <input type="submit" value="Submit button">
 </form>
