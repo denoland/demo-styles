@@ -11,10 +11,10 @@ templateEngine: [vto, md]
   </p>
 
 ```
-<link rel="preload" href="https://demo-styles.philhawksworth.deno.net/fonts/Moranga-Regular.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="preload" href="https://demo-styles.philhawksworth.deno.net/fonts/Moranga-Medium.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="preload" href="https://demo-styles.philhawksworth.deno.net/fonts/Recursive_Variable.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="stylesheet" href="https://demo-styles.philhawksworth.deno.net/styles.css">
+<link rel="preload" href="https://demo-styles.deno.deno.net/fonts/Moranga-Regular.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://demo-styles.deno.deno.net/fonts/Moranga-Medium.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://demo-styles.deno.deno.net/fonts/Recursive_Variable.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="https://demo-styles.deno.deno.net/styles.css">
 ```
 
 Review the [reference](/reference) page to review how this stylesheet formats standard HTML elements and also for some additional utility classes which it makes available.
