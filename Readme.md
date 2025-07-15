@@ -1,8 +1,7 @@
-# Deno Examples
+# Deno Examples styles
 
-A collection of Deno examples and a set of common styles for them to use
+Simple, Deno-branded styles for use in demos and examples.
 
-## Structure
+## Get your own copy to explore
 
-- `/examples` - A collection of examples to explore and clone individually
-- `/example-styles` - A set of CSS and assets served centrally at https://styles.deno.net for any examples to use.
+You can clone these resources into a repo of your own, and use it to set up a new application hosted on Deno Deploy in a few clicks
