@@ -2,7 +2,15 @@ import Server from "lume/core/server.ts";
 
 const corsMiddleware = async (request: Request, next: Lume.RequestHandler) => {
   const response = await next(request);
-  console.log("allowing cors for", request.url);
+  
+  // Log the referrer to see who is hotlinking to this resource
+  const referer = request.headers.get("referer");
+  if (referer) {
+    const host = new URL(referer).hostname;
+    console.log(host);
+  }
+
+  // Add CORS headers
   response.headers.set("Access-Control-Allow-Origin", "*");
   return response;
 }
