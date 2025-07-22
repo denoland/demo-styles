@@ -4,10 +4,39 @@
     <meta charset="UTF-8" />
     <title>Deno demo styles</title>
     <link rel="stylesheet" href="/styles.css">
+    <style>
+    /* 
+      Additional styles of this site that we might not 
+      want to make general purpose for all consumers 
+    */
+
+    header {
+      padding: 3em 0;
+    }
+    </style>
   </head>
   <body>
+    <header>
+      <h1>Deno demo styles</h1>
+      <p>
+      Simple, <a href="https://deno.com">Deno</a>-branded styles for use in demos and examples
+      </p>
+    </header>
+    <hr>
     <main>
       {{ content }}
     </main>
+    <hr>
+    <footer>
+    <section>
+    <h2>Get your own copy to explore</h2>
+    <p>You can clone these resources into a repo of your own, and use it to set up a new application hosted on <a href="https://deno.com/deploy">Deno Deploy</a> in a few clicks.</p>
+    <p>
+    <a href="https://app.deno.com/new?clone=https://github.com/denoland/demo-styles">
+      <img src="https://deno.com/button" alt="Deploy on Deno" />
+    </a>
+    </p>
+    </section>
+    </footer>
   </body>
 </html>
