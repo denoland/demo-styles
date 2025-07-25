@@ -29,6 +29,40 @@ textarea {
   }
 }
 
+button,
+.btn-primary:link, .btn-primary:visited,
+.btn-secondary:link, .btn-secondary:visited {
+  align-items: center;
+  background-color: rgb(102, 194, 255);
+  border-color: rgb(0, 119, 204);
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1.81818px;
+  box-shadow: rgb(0, 119, 204) 2px 4px 0px 0px;
+  font-family: Moranga, "Georgia Pro", Georgia, serif;
+  max-width:max-content;
+  padding: 6px 20px;
+  line-height: 1.6;
+  text-decoration: none;
+  color: rgb(15, 21, 42);
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+  text-align: center;
+
+  &:hover, &:focus {
+    background-color:  rgb(160, 217, 255);
+  }   
+}
+
+.btn-primary:link, .btn-primary:visited {
+  background-color: rgb(102, 194, 255);
+}
+
+.btn-secondary:link, .btn-secondary:visited {
+  background-color: rgb(223, 242, 255);
+}
+
 
 
 input[type=submit] {
