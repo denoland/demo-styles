@@ -33,6 +33,7 @@ button,
 .btn-primary:link, .btn-primary:visited,
 .btn-secondary:link, .btn-secondary:visited {
   align-items: center;
+  display: inline-block;
   background-color: rgb(102, 194, 255);
   border-color: rgb(0, 119, 204);
   border-radius: 8px;
@@ -42,18 +43,19 @@ button,
   font-family: Moranga, "Georgia Pro", Georgia, serif;
   max-width:max-content;
   padding: 6px 20px;
+  margin: 0.25em 0;
   line-height: 1.6;
   text-decoration: none;
   color: rgb(15, 21, 42);
   font-weight: bold;
-  font-size: 1.1rem;
   transition: all 0.2s ease;
   text-align: center;
+  white-space: nowrap;
   cursor: pointer;
-  &:hover:not([disabled]), &:focus:not([disabled]) {
+  &:hover:not([disabled]):not(.disabled), &:focus:not([disabled]):not(.disabled) {
     background-color:  rgb(160, 217, 255);
   }   
-  &:disabled {
+  &:disabled, &.disabled  {
     opacity: 0.5;
     cursor: not-allowed;
   }

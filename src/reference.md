@@ -64,7 +64,7 @@ A horizontal rule `<hr>` can be used to add some subtle visual separation.
 
   Inline anchor tags [appear like this](/) without any additional css.
 
-  Button styles are available to use direclty on button elements or by adding a class to an anchor element.
+  Button styles are available to use direclty on button elements or by adding a class to an anchor element. You can also use [utility classes](#utility-classes) to style other elements as buttons if appropraite
 
 ```html
 <button>Button</button>
@@ -274,9 +274,13 @@ Using `input` elements nested inside `labels` for implicit association.
 <section>
 
 
+<a id="utility-classes"></a>
+
 ## Utility classes
 
+
 Handy for some additional styling control and UI elements.
+
 
 ### Buttons
 
@@ -285,11 +289,13 @@ If a [button element](#links-and-buttons) is not appropriate, anchor tags can be
 ```html
 <a href="/" class="btn-primary">Button link</a>
 <a href="/" class="btn-secondary">Button link</a>
+<a href="/" class="btn-primary disabled">Disabled button link</a>
 ```
 
 <p>
   <a href="#" class="btn-primary">Primary button link</a>
   <a href="#" class="btn-secondary">Secondary button link</a>
+  <a href="#" class="btn-primary disabled">Disabled button link</a>
 </p>
 
 ### Presentation blocks
