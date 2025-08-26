@@ -2,7 +2,7 @@
 
 body {
   font-family: var(--font-sans);
-  
+  font-size: var(--step-1);
   color: #666;
   line-height: 1.5;
 }
@@ -54,4 +54,6 @@ blockquote {
     margin-top: 0;
   }
 }
+
+
 

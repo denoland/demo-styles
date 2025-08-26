@@ -49,10 +49,14 @@ button,
   font-size: 1.1rem;
   transition: all 0.2s ease;
   text-align: center;
-
-  &:hover, &:focus {
+  cursor: pointer;
+  &:hover:not([disabled]), &:focus:not([disabled]) {
     background-color:  rgb(160, 217, 255);
   }   
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 }
 
 .btn-primary:link, .btn-primary:visited {
@@ -62,6 +66,7 @@ button,
 .btn-secondary:link, .btn-secondary:visited {
   background-color: rgb(223, 242, 255);
 }
+
 
 
 
