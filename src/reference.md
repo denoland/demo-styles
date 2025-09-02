@@ -211,7 +211,15 @@ export default async (request: Request, context: Context) => {
   });
 };
 ```
- 
+ </section>
+<hr>
+<section>
+
+## Icons
+
+A small number of common icons are provided for convenience
+
+<a href="#" class="icon icon-bluesky" title="Bluesky">Bluesky</a>
 
 
 </section>

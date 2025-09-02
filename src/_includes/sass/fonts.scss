@@ -1,9 +1,11 @@
+@use "./root.scss";
+
 @font-face {
   font-family: Moranga;
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: url("https://demo-styles.deno.deno.net/fonts/Moranga-Regular.woff2") format("woff2");
+  src: url("#{root.$baseurl}fonts/Moranga-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -11,7 +13,7 @@
   font-style: normal;
   font-weight: bold;
   font-display: swap;
-  src: url("https://demo-styles.deno.deno.net/fonts/Moranga-Medium.woff2") format("woff2");
+  src: url("#{root.$baseurl}fonts/Moranga-Medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -19,5 +21,5 @@
   font-style: normal;
   font-weight: 300 1000;
   font-display: swap;
-  src: url("https://demo-styles.deno.deno.net/fonts/Recursive_Variable.woff2") format("woff2");
+  src: url("#{root.$baseurl}fonts/Recursive_Variable.woff2") format("woff2");
 }

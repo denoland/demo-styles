@@ -1,0 +1,36 @@
+@use "./root.scss";
+
+.icon {
+  display: inline-block;
+  width: 1.5em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 0.25em;
+  vertical-align: middle;
+  text-indent: -9999px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+  &.icon-bluesky {  
+    background-image: url(" #{root.$baseurl}images/bluesky.svg");
+  }
+  &.icon-twitter {
+    background-image: url(" #{root.$baseurl}images/twitter.svg");
+  }
+  &.icon-youtube {
+    background-image: url(" #{root.$baseurl}images/youtube.svg");
+  }
+  &.icon-discord {
+    background-image: url(" #{root.$baseurl}images/discord.svg");
+  }
+  &.icon-deno {
+    background-image: url(" #{root.$baseurl}images/deno.svg");
+  }
+  &.icon-github {
+    background-image: url(" #{root.$baseurl}images/github.svg");
+  }
+}
