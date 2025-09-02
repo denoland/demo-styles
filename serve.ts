@@ -15,9 +15,23 @@ const corsMiddleware = async (request: Request, next: Lume.RequestHandler) => {
   return response;
 }
 
+
+// add cache control headers based on the path
+const cacheMiddleware = async (request: Request, next: Lume.RequestHandler) => {
+  const response = await next(request);
+  const path = new URL(request.url).pathname;
+  if (path.includes("/fonts/")) {
+    response.headers.set("Cache-Control", "public, max-age=604800");
+  } else {
+    response.headers.set("Cache-Control", "public, max-age=86400");
+  }
+  return response;
+}
+
+
+
 export const server = new Server({ root: "./_site" });
 
 server.use(corsMiddleware);
+server.use(cacheMiddleware);
 server.start();
-
-console.log("Listening on http://localhost:8000");

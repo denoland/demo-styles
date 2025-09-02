@@ -6,6 +6,16 @@ const site = lume({
   dest: "./_site",
 });
 
+site.addEventListener("beforeBuild", () => {
+  if (Deno.env.get("DENO_DEPLOY")) {
+    console.log("Production mode");
+    Deno.writeTextFileSync("./src/_includes/sass/root.scss", "$baseurl: 'https://demo-styles.deno.deno.net/';");
+  } else {
+    console.log("Development mode");
+    Deno.writeTextFileSync("./src/_includes/sass/root.scss", "$baseurl: '/';");
+  }
+});
+
 // Sass
 site.use(sass(/* Options */));
 site.add("styles.scss");

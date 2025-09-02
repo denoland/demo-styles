@@ -26,7 +26,7 @@
     ]
   },
   "deploy": {
-    "org": "philhawksworth",
+    "org": "deno",
     "app": "demo-styles"
   }
 }
