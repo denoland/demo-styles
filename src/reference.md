@@ -226,7 +226,7 @@ export default async (request: Request, context: Context) => {
 <hr>
 <section>
 
-<!-- ## Icons
+## Icons
 
 A small number of common icons are provided for convenience
 
@@ -240,18 +240,18 @@ A small number of common icons are provided for convenience
 <a href="#" class="icon icon-twitter" title="Twitter">Twitter</a>
 ```
 
-<a href="#" class="icon icon-bluesky" title="Bluesky">Bluesky</a>
-<a href="#" class="icon icon-github" title="GitHub">GitHub</a>
-<a href="#" class="icon icon-discord" title="Discord">Discord</a>
-<a href="#" class="icon icon-youtube" title="YouTube">YouTube</a>
-<a href="#" class="icon icon-deno" title="Deno">Deno</a>
-<a href="#" class="icon icon-deploy" title="Deno Deploy">Deno Deploy</a>
-<a href="#" class="icon icon-twitter" title="Twitter">Twitter</a>
+<a href="https://bsky.app/profile/deno.land" class="icon icon-bluesky" title="Bluesky">Bluesky</a>
+<a href="https://github.com/denoland" class="icon icon-github" title="GitHub">GitHub</a>
+<a href="https://discord.gg/deno" class="icon icon-discord" title="Discord">Discord</a>
+<a href="https://youtube.com/@deno_land" class="icon icon-youtube" title="YouTube">YouTube</a>
+<a href="https://deno.com" class="icon icon-deno" title="Deno">Deno</a>
+<a href="https://deno.com/deploy" class="icon icon-deploy" title="Deno Deploy">Deno Deploy</a>
+<a href="https://twitter.com/deno_land" class="icon icon-twitter" title="Twitter">Twitter</a>
 
 
 </section>
 <hr>
-<section> -->
+<section> 
 
 ## Form elements
 

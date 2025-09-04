@@ -26,6 +26,7 @@ a.icon {
   }
   &.icon-twitter {
     background-image: url("#{root.$baseurl}images/twitter.svg");
+    width: 1.4em;
   }
   &.icon-youtube {
     background-image: url("#{root.$baseurl}images/youtube.svg");
@@ -37,5 +38,9 @@ a.icon {
   }
   &.icon-deno {
     background-image: url("#{root.$baseurl}images/deno.svg");
+  }
+  &.icon-deploy {
+    background-image: url("#{root.$baseurl}images/deploy.svg");
+    width: 1.8em;
   }
 }
