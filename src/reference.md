@@ -109,7 +109,18 @@ A horizontal rule `<hr>` can be used to add some subtle visual separation.
 
   ```html
   <pre>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque perspiciatis placeat sit deserunt suscipit quisquam eaque hic dolorum libero magnam! Ducimus quis adipisci amet mollitia atque dicta iste aut ratione?
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+Atque perspiciatis placeat sit deserunt
+suscipit
+  quisquam
+    eaque
+      hic
+        dolorum
+      libero 
+    magnam! 
+  Ducimus 
+quis adipisci amet mollitia atque dicta iste aut ratione?
   </pre>
   ```
 
