@@ -1,8 +1,9 @@
 @use "./root.scss";
 
-.icon {
+a.icon {
   display: inline-block;
   width: 1.5em;
+  aspect-ratio: 1/1;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -12,25 +13,29 @@
   overflow: hidden;
   white-space: nowrap;
   cursor: pointer;
+
   &:hover {
     opacity: 0.8;
   }
+  &.icon-github {
+    background-image: url("#{root.$baseurl}images/github.svg");
+    width: 1.6em;
+  }
   &.icon-bluesky {  
-    background-image: url(" #{root.$baseurl}images/bluesky.svg");
+    background-image: url("#{root.$baseurl}images/bluesky.svg");
   }
   &.icon-twitter {
-    background-image: url(" #{root.$baseurl}images/twitter.svg");
+    background-image: url("#{root.$baseurl}images/twitter.svg");
   }
   &.icon-youtube {
-    background-image: url(" #{root.$baseurl}images/youtube.svg");
+    background-image: url("#{root.$baseurl}images/youtube.svg");
+    width:2em;
   }
   &.icon-discord {
-    background-image: url(" #{root.$baseurl}images/discord.svg");
+    background-image: url("#{root.$baseurl}images/discord.svg");
+    width: 1.8em;
   }
   &.icon-deno {
-    background-image: url(" #{root.$baseurl}images/deno.svg");
-  }
-  &.icon-github {
-    background-image: url(" #{root.$baseurl}images/github.svg");
+    background-image: url("#{root.$baseurl}images/deno.svg");
   }
 }

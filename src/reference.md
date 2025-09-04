@@ -215,16 +215,32 @@ export default async (request: Request, context: Context) => {
 <hr>
 <section>
 
-## Icons
+<!-- ## Icons
 
 A small number of common icons are provided for convenience
 
+```html
 <a href="#" class="icon icon-bluesky" title="Bluesky">Bluesky</a>
+<a href="#" class="icon icon-github" title="GitHub">GitHub</a>
+<a href="#" class="icon icon-discord" title="Discord">Discord</a>
+<a href="#" class="icon icon-youtube" title="YouTube">YouTube</a>
+<a href="#" class="icon icon-deno" title="Deno">Deno</a>
+<a href="#" class="icon icon-deploy" title="Deno Deploy">Deno Deploy</a>
+<a href="#" class="icon icon-twitter" title="Twitter">Twitter</a>
+```
+
+<a href="#" class="icon icon-bluesky" title="Bluesky">Bluesky</a>
+<a href="#" class="icon icon-github" title="GitHub">GitHub</a>
+<a href="#" class="icon icon-discord" title="Discord">Discord</a>
+<a href="#" class="icon icon-youtube" title="YouTube">YouTube</a>
+<a href="#" class="icon icon-deno" title="Deno">Deno</a>
+<a href="#" class="icon icon-deploy" title="Deno Deploy">Deno Deploy</a>
+<a href="#" class="icon icon-twitter" title="Twitter">Twitter</a>
 
 
 </section>
 <hr>
-<section>
+<section> -->
 
 ## Form elements
 
