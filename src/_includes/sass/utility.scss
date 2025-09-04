@@ -5,9 +5,17 @@
 }
 
 .panel {
-  background-color: var(--shade-down-2);
-  border-radius: var(--radius-3);
-  padding: 2em;
-  margin: 2em 0;
+  // background-color: var(--shade-down-2);
+  // border-radius: var(--radius-3);
+  // padding: 2em;
+  // margin: 2em 0;
+  
+  
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 2px solid var(--color-tertiary);
+  border-radius: 1px;
+  background: white;
+  box-shadow: 2px 4px 0px 0px var(--color-tertiary-light);
+  text-align: center;
 }
-
