@@ -4,6 +4,7 @@ code {
   border-radius: var(--radius-2);
   background-color: #eee;
   color: var(--color-primary-light);
+  font-size: 0.8em;
 }
 pre {
   border-radius: var(--radius-2);
@@ -18,7 +19,7 @@ pre:has(> code) {
 }
 
 pre code {
-  font-size: 0.9rem;
+  // font-size: 0.9rem;
   padding: 0;
   background-color: #222;
   color: var(--color-secondary-light);
